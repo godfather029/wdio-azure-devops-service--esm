@@ -1,6 +1,7 @@
 /* eslint-disable */
-const fs = require('fs')
-const Path = require('path')
+import fs from 'fs'
+import Path from 'path'
+
 /* eslint-enable */
 
 const deleteFolderRecursive = (path) => {

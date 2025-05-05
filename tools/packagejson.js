@@ -1,8 +1,8 @@
 /* eslint-disable */
-const fs = require('fs')
-const Path = require('path')
-const fileName = '../package.json'
-const file = require(fileName)
+import fs from 'fs'
+import Path from 'path'
+import file from '../package.json'
+
 /* eslint-enable */
 
 const args = process.argv.slice(2)
